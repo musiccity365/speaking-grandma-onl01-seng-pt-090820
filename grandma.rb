@@ -8,13 +8,13 @@ def speak_to_grandma(phrase)
 # If you shout, she can hear you (or at least she thinks so)
 # and yells back
   elsif phrase == phrase.downcase
-      return "HUH?! SPEAK UP, SONNY! unless you are shouting"
+      return "HUH?! SPEAK UP, SONNY!"
   elsif phrase == phrase.downcase
-      return "HUH?! SPEAK UP, SONNY! for a second time"
+      return "HUH?! SPEAK UP, SONNY!"
   elsif phrase == phrase.upcase
-      return "NO, NOT SINCE 1938!"
+      return "HUH?! SPEAK UP, SONNY!"
   else
-      return "NO, NOT SINCE 1938!"
+      return "HUH?! SPEAK UP, SONNY!"
 # NO, NOT SINCE 1938!
   end
 # However if you say 'I LOVE YOU GRANDMA!', she should respond with
